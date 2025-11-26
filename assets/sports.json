@@ -1,0 +1,107 @@
+[
+  {
+    "word": "Dribble",
+    "meaning": "To move the ball by bouncing or controlling it",
+    "example": "He can dribble past defenders easily.",
+    "synonyms": ["maneuver", "control"],
+    "antonyms": []
+  },
+  {
+    "word": "Offside",
+    "meaning": "A rule violation in football or hockey",
+    "example": "The striker was caught offside.",
+    "synonyms": ["rule breach"],
+    "antonyms": []
+  },
+  {
+    "word": "Penalty",
+    "meaning": "A punishment for breaking the rules in a game",
+    "example": "The team conceded a penalty in the last minute.",
+    "synonyms": ["punishment", "foul"],
+    "antonyms": []
+  },
+  {
+    "word": "Tackle",
+    "meaning": "To stop an opponent by seizing and bringing them down",
+    "example": "He made a perfect tackle to win the ball.",
+    "synonyms": ["block", "stop"],
+    "antonyms": []
+  },
+  {
+    "word": "Home Run",
+    "meaning": "A hit in baseball that allows the batter to circle all bases",
+    "example": "He hit a home run in the last inning.",
+    "synonyms": ["HR", "base hit"],
+    "antonyms": []
+  },
+  {
+    "word": "Ace",
+    "meaning": "A successful serve in tennis that the opponent cannot touch",
+    "example": "She scored an ace to win the match.",
+    "synonyms": ["serve winner"],
+    "antonyms": []
+  },
+  {
+    "word": "Foul",
+    "meaning": "A violation of the rules in a sport",
+    "example": "He was penalized for a foul in the penalty box.",
+    "synonyms": ["infraction", "violation"],
+    "antonyms": []
+  },
+  {
+    "word": "Drill",
+    "meaning": "A practice exercise to improve skills",
+    "example": "The coach organized a passing drill for the team.",
+    "synonyms": ["exercise", "training"],
+    "antonyms": []
+  },
+  {
+    "word": "Timeout",
+    "meaning": "A short break called during a game",
+    "example": "The coach called a timeout to strategize.",
+    "synonyms": ["break", "pause"],
+    "antonyms": []
+  },
+  {
+    "word": "Rebound",
+    "meaning": "Gaining possession of the ball after a missed shot",
+    "example": "He grabbed the rebound to start a fast break.",
+    "synonyms": ["retrieve", "catch"],
+    "antonyms": []
+  },
+  {
+    "word": "Corner Kick",
+    "meaning": "A kick from the corner of the field in football",
+    "example": "The striker scored from a corner kick.",
+    "synonyms": ["set piece"],
+    "antonyms": []
+  },
+  {
+    "word": "Pitch",
+    "meaning": "The playing field in football or cricket",
+    "example": "The pitch was wet after the rain.",
+    "synonyms": ["field", "ground"],
+    "antonyms": []
+  },
+  {
+    "word": "Dribbling",
+    "meaning": "Skill of controlling the ball while moving",
+    "example": "Good dribbling skills help break defenses.",
+    "synonyms": ["ball control", "maneuvering"],
+    "antonyms": []
+  },
+  {
+    "word": "Penalty Shootout",
+    "meaning": "A series of penalty kicks to decide a winner",
+    "example": "The match ended with a penalty shootout.",
+    "synonyms": ["penalty kicks"],
+    "antonyms": []
+  },
+  {
+    "word": "Hat-trick",
+    "meaning": "Scoring three goals in a single match",
+    "example": "The striker scored a hat-trick to win the game.",
+    "synonyms": ["three-goal feat"],
+    "antonyms": []
+  }
+]

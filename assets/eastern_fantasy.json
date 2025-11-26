@@ -1,0 +1,296 @@
+[
+  {
+    "word": "Qi",
+    "meaning": "Vital life force in Chinese philosophy and martial arts",
+    "example": "The monk controlled his Qi through meditation.",
+    "synonyms": ["energy", "life force"],
+    "antonyms": []
+  },
+  {
+    "word": "Kami",
+    "meaning": "Spirits or gods in Japanese Shinto religion",
+    "example": "Shrines are dedicated to different Kami.",
+    "synonyms": ["spirit", "deity"],
+    "antonyms": []
+  },
+  {
+    "word": "Chakra",
+    "meaning": "Energy centers in the body according to Indian tradition",
+    "example": "Meditation helps balance the chakras.",
+    "synonyms": ["energy point", "vital center"],
+    "antonyms": []
+  },
+  {
+    "word": "Shen",
+    "meaning": "Spirit or soul in Chinese philosophy",
+    "example": "He cultivated his Shen through daily rituals.",
+    "synonyms": ["spirit", "soul"],
+    "antonyms": []
+  },
+  {
+    "word": "Dao",
+    "meaning": "The Way; principle underlying the universe in Taoism",
+    "example": "The sage followed the Dao in his actions.",
+    "synonyms": ["path", "principle"],
+    "antonyms": []
+  },
+  {
+    "word": "Yokai",
+    "meaning": "Supernatural creatures or spirits in Japanese folklore",
+    "example": "The forest was said to be haunted by Yokai.",
+    "synonyms": ["spirit", "monster"],
+    "antonyms": []
+  },
+  {
+    "word": "Bushi",
+    "meaning": "A warrior or samurai in Japan",
+    "example": "The Bushi trained rigorously in the dojo.",
+    "synonyms": ["samurai", "warrior"],
+    "antonyms": []
+  },
+  {
+    "word": "Wu Wei",
+    "meaning": "Effortless action in harmony with the flow of life",
+    "example": "Practicing Wu Wei brings peace and clarity.",
+    "synonyms": ["effortless action", "non-action"],
+    "antonyms": ["forced action", "struggle"]
+  },
+  {
+    "word": "Tao",
+    "meaning": "The ultimate reality and way of the universe in Taoism",
+    "example": "He studied the Tao to understand life.",
+    "synonyms": ["way", "path"],
+    "antonyms": []
+  },
+  {
+    "word": "Zen",
+    "meaning": "A Japanese school of Mahayana Buddhism emphasizing meditation",
+    "example": "Zen meditation brings clarity of mind.",
+    "synonyms": ["meditation", "mindfulness"],
+    "antonyms": []
+  },
+  {
+    "word": "Seishin",
+    "meaning": "Spirit, soul, or mental power in Japanese",
+    "example": "The warrior strengthened his Seishin before battle.",
+    "synonyms": ["spirit", "mind"],
+    "antonyms": []
+  },
+  {
+    "word": "Hanyou",
+    "meaning": "Half-demon or hybrid in Japanese fantasy",
+    "example": "The Hanyou struggled between two worlds.",
+    "synonyms": ["half-demon", "hybrid"],
+    "antonyms": []
+  },
+  {
+    "word": "Onmyoji",
+    "meaning": "A practitioner of Japanese esoteric cosmology and magic",
+    "example": "The Onmyoji protected the village from spirits.",
+    "synonyms": ["sorcerer", "diviner"],
+    "antonyms": []
+  },
+  {
+    "word": "Senpai",
+    "meaning": "Senior or mentor in Japanese school or work culture",
+    "example": "The Senpai guided the newcomer patiently.",
+    "synonyms": ["mentor", "senior"],
+    "antonyms": ["junior", "novice"]
+  },
+  {
+    "word": "Kensei",
+    "meaning": "Master swordsman",
+    "example": "The Kensei was renowned for unmatched sword skills.",
+    "synonyms": ["sword master", "samurai"],
+    "antonyms": []
+  },
+  {
+    "word": "Onna-bugeisha",
+    "meaning": "Female warrior in Japan",
+    "example": "The Onna-bugeisha defended her village courageously.",
+    "synonyms": ["female samurai", "warrior woman"],
+    "antonyms": []
+  },
+  {
+    "word": "Kami-sama",
+    "meaning": "Term used to address a god or deity",
+    "example": "Prayers were offered to Kami-sama for protection.",
+    "synonyms": ["god", "deity"],
+    "antonyms": []
+  },
+  {
+    "word": "Chunin",
+    "meaning": "Middle-rank ninja or practitioner in Japanese martial arts",
+    "example": "The Chunin completed his first solo mission.",
+    "synonyms": ["ninja", "practitioner"],
+    "antonyms": []
+  },
+  {
+    "word": "Sensei",
+    "meaning": "Teacher or master in martial arts",
+    "example": "The Sensei taught discipline and technique.",
+    "synonyms": ["teacher", "mentor"],
+    "antonyms": []
+  },
+  {
+    "word": "Kiai",
+    "meaning": "A shout used in martial arts to focus energy",
+    "example": "He let out a strong Kiai before striking.",
+    "synonyms": ["battle cry", "shout"],
+    "antonyms": []
+  },
+  {
+    "word": "Bonsai",
+    "meaning": "Miniature tree cultivated in Japanese tradition",
+    "example": "He spent hours shaping the Bonsai.",
+    "synonyms": ["miniature tree", "plant art"],
+    "antonyms": []
+  },
+  {
+    "word": "Karma",
+    "meaning": "The sum of a person's actions determining their fate",
+    "example": "Good deeds bring positive karma.",
+    "synonyms": ["fate", "destiny"],
+    "antonyms": ["misfortune", "bad luck"]
+  },
+  {
+    "word": "Tengu",
+    "meaning": "Supernatural creature in Japanese folklore with bird-like features",
+    "example": "The Tengu guarded the mountain pass.",
+    "synonyms": ["spirit", "demon"],
+    "antonyms": []
+  },
+  {
+    "word": "Ronin",
+    "meaning": "A masterless samurai",
+    "example": "The Ronin wandered the land seeking purpose.",
+    "synonyms": ["wanderer", "samurai"],
+    "antonyms": []
+  },
+  {
+    "word": "Shogun",
+    "meaning": "Military ruler of Japan",
+    "example": "The Shogun commanded the armies of the nation.",
+    "synonyms": ["commander", "ruler"],
+    "antonyms": []
+  },
+  {
+    "word": "Ninja",
+    "meaning": "Covert agent or assassin in Japanese tradition",
+    "example": "The Ninja moved silently through the shadows.",
+    "synonyms": ["spy", "assassin"],
+    "antonyms": []
+  },
+  {
+    "word": "Samurai",
+    "meaning": "Member of the warrior class in Japan",
+    "example": "The Samurai followed the bushido code strictly.",
+    "synonyms": ["warrior", "soldier"],
+    "antonyms": []
+  },
+  {
+    "word": "Onigami",
+    "meaning": "Demon or evil spirit in fantasy context",
+    "example": "The village was haunted by Onigami.",
+    "synonyms": ["demon", "spirit"],
+    "antonyms": []
+  },
+  {
+    "word": "Henge",
+    "meaning": "A being able to transform shape",
+    "example": "The fox had Henge powers to disguise itself.",
+    "synonyms": ["shapeshifter", "transformer"],
+    "antonyms": []
+  },
+  {
+    "word": "Kitsune",
+    "meaning": "Magical fox spirit in Japanese folklore",
+    "example": "The Kitsune tricked travelers with illusions.",
+    "synonyms": ["fox spirit", "trickster"],
+    "antonyms": []
+  },
+  {
+    "word": "Ryuu",
+    "meaning": "Dragon in Japanese culture",
+    "example": "The Ryuu flew across the mountain sky.",
+    "synonyms": ["dragon", "serpent"],
+    "antonyms": []
+  },
+  {
+    "word": "Miko",
+    "meaning": "Shinto shrine maiden",
+    "example": "The Miko performed rituals at the shrine.",
+    "synonyms": ["priestess", "maiden"],
+    "antonyms": []
+  },
+  {
+    "word": "Onryo",
+    "meaning": "Vengeful spirit",
+    "example": "The Onryo haunted the samurai’s house.",
+    "synonyms": ["ghost", "revenant"],
+    "antonyms": []
+  },
+  {
+    "word": "Mononoke",
+    "meaning": "Supernatural spirit or monster",
+    "example": "The forest was home to Mononoke.",
+    "synonyms": ["spirit", "creature"],
+    "antonyms": []
+  },
+  {
+    "word": "Obake",
+    "meaning": "Shape-shifting ghost or monster",
+    "example": "An Obake appeared in the abandoned house.",
+    "synonyms": ["ghost", "specter"],
+    "antonyms": []
+  },
+  {
+    "word": "Reiki",
+    "meaning": "Healing energy practice",
+    "example": "He learned Reiki to heal others.",
+    "synonyms": ["energy healing", "spiritual healing"],
+    "antonyms": []
+  },
+  {
+    "word": "Kami-no-michi",
+    "meaning": "The way of the gods",
+    "example": "The monk followed Kami-no-michi.",
+    "synonyms": ["divine path", "spiritual path"],
+    "antonyms": []
+  },
+  {
+    "word": "Feng Shui",
+    "meaning": "Chinese art of spatial arrangement for harmony",
+    "example": "They designed their home according to Feng Shui.",
+    "synonyms": ["geomancy", "energy flow"],
+    "antonyms": []
+  },
+  {
+    "word": "Taoist",
+    "meaning": "Follower of Taoism philosophy",
+    "example": "The Taoist practiced meditation daily.",
+    "synonyms": ["follower", "practitioner"],
+    "antonyms": []
+  },
+  {
+    "word": "Bushido",
+    "meaning": "Code of honor for samurai",
+    "example": "The Samurai followed Bushido strictly.",
+    "synonyms": ["samurai code", "honor code"],
+    "antonyms": []
+  },
+  {
+    "word": "Kami-iri",
+    "meaning": "Spirit possession",
+    "example": "The shaman performed a Kami-iri ritual.",
+    "synonyms": ["spirit possession", "divine influence"],
+    "antonyms": []
+  },
+  {
+    "word": "Shinobi",
+    "meaning": "Another term for ninja or covert agent",
+    "example": "The Shinobi moved silently at night.",
+    "synonyms": ["ninja", "spy"],
+    "antonyms": []
+  }
+]

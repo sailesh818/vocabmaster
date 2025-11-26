@@ -1,0 +1,352 @@
+[
+  {
+    "word": "Entrepreneur",
+    "meaning": "A person who starts a business",
+    "example": "She is a successful entrepreneur in tech.",
+    "synonyms": ["business owner", "founder"],
+    "antonyms": []
+  },
+  {
+    "word": "Revenue",
+    "meaning": "Income generated from business activities",
+    "example": "The company's revenue increased this year.",
+    "synonyms": ["income", "profit"],
+    "antonyms": ["loss"]
+  },
+  {
+    "word": "Startup",
+    "meaning": "A newly established business",
+    "example": "The startup raised $1 million in funding.",
+    "synonyms": ["new business", "emerging company"],
+    "antonyms": []
+  },
+  {
+    "word": "Investment",
+    "meaning": "The act of putting money into a business to earn profit",
+    "example": "He made a significant investment in a renewable energy company.",
+    "synonyms": ["funding", "capital"],
+    "antonyms": ["loss"]
+  },
+  {
+    "word": "Profit",
+    "meaning": "The financial gain after expenses are subtracted",
+    "example": "The company reported record profits this quarter.",
+    "synonyms": ["gain", "earnings"],
+    "antonyms": ["loss", "deficit"]
+  },
+  {
+    "word": "Loss",
+    "meaning": "Financial deficit when expenses exceed income",
+    "example": "The new branch operated at a loss during its first year.",
+    "synonyms": ["deficit", "shortfall"],
+    "antonyms": ["profit", "gain"]
+  },
+  {
+    "word": "Revenue Stream",
+    "meaning": "A source of income for a business",
+    "example": "Subscriptions provide a stable revenue stream for the company.",
+    "synonyms": ["income source", "profit channel"],
+    "antonyms": []
+  },
+  {
+    "word": "Market Share",
+    "meaning": "The portion of a market controlled by a company",
+    "example": "The brand increased its market share by 10% last year.",
+    "synonyms": ["industry share", "segment control"],
+    "antonyms": []
+  },
+  {
+    "word": "Merger",
+    "meaning": "The combination of two companies into one",
+    "example": "The merger created one of the largest tech firms.",
+    "synonyms": ["consolidation", "amalgamation"],
+    "antonyms": ["split", "divestment"]
+  },
+  {
+    "word": "Acquisition",
+    "meaning": "One company buying another company",
+    "example": "The corporation made a major acquisition to expand its market.",
+    "synonyms": ["buyout", "takeover"],
+    "antonyms": ["sale", "divestment"]
+  },
+  {
+    "word": "IPO",
+    "meaning": "Initial Public Offering: first sale of stock to the public",
+    "example": "The startup went public through an IPO last year.",
+    "synonyms": ["public listing", "stock launch"],
+    "antonyms": []
+  },
+  {
+    "word": "Shareholder",
+    "meaning": "An owner of company stock",
+    "example": "Shareholders voted on the company's new policy.",
+    "synonyms": ["stockholder", "investor"],
+    "antonyms": []
+  },
+  {
+    "word": "Stakeholder",
+    "meaning": "Anyone with an interest in a business",
+    "example": "Employees and customers are important stakeholders.",
+    "synonyms": ["interested party", "participant"],
+    "antonyms": []
+  },
+  {
+    "word": "Cash Flow",
+    "meaning": "The total amount of money moving in and out of a business",
+    "example": "The company has strong monthly cash flow.",
+    "synonyms": ["liquidity", "funds movement"],
+    "antonyms": []
+  },
+  {
+    "word": "Debt",
+    "meaning": "Money owed by a business",
+    "example": "The startup took on debt to fund its expansion.",
+    "synonyms": ["loan", "liability"],
+    "antonyms": ["credit", "asset"]
+  },
+  {
+    "word": "Equity",
+    "meaning": "Ownership value in a company",
+    "example": "She owns 25% equity in the firm.",
+    "synonyms": ["ownership", "shares"],
+    "antonyms": []
+  },
+  {
+    "word": "Dividend",
+    "meaning": "Profit shared with shareholders",
+    "example": "The company paid a dividend of $2 per share.",
+    "synonyms": ["payout", "profit share"],
+    "antonyms": []
+  },
+  {
+    "word": "Brand",
+    "meaning": "A company's identity or image",
+    "example": "Apple is a globally recognized brand.",
+    "synonyms": ["label", "trademark"],
+    "antonyms": []
+  },
+  {
+    "word": "Marketing",
+    "meaning": "Promoting and selling products or services",
+    "example": "The marketing team launched a new campaign.",
+    "synonyms": ["advertising", "promotion"],
+    "antonyms": []
+  },
+  {
+    "word": "Strategy",
+    "meaning": "A plan of action to achieve business goals",
+    "example": "The company’s growth strategy focuses on digital products.",
+    "synonyms": ["plan", "tactic"],
+    "antonyms": []
+  },
+  {
+    "word": "Competition",
+    "meaning": "Rivalry between businesses",
+    "example": "The coffee shop faces stiff competition in the city.",
+    "synonyms": ["rivalry", "contest"],
+    "antonyms": ["cooperation"]
+  },
+  {
+    "word": "Customer",
+    "meaning": "A person or company who buys products or services",
+    "example": "Customer satisfaction is our top priority.",
+    "synonyms": ["client", "buyer"],
+    "antonyms": []
+  },
+  {
+    "word": "Consumer",
+    "meaning": "Someone who uses products or services",
+    "example": "Consumers demand high-quality products.",
+    "synonyms": ["user", "purchaser"],
+    "antonyms": []
+  },
+  {
+    "word": "Innovation",
+    "meaning": "The process of introducing new ideas or methods",
+    "example": "Innovation drives the tech industry forward.",
+    "synonyms": ["creativity", "invention"],
+    "antonyms": ["stagnation"]
+  },
+  {
+    "word": "Leadership",
+    "meaning": "The action of leading a group or company",
+    "example": "Her leadership transformed the company.",
+    "synonyms": ["guidance", "management"],
+    "antonyms": ["mismanagement"]
+  },
+  {
+    "word": "Management",
+    "meaning": "The process of controlling and organizing a business",
+    "example": "Effective management improves productivity.",
+    "synonyms": ["administration", "supervision"],
+    "antonyms": []
+  },
+  {
+    "word": "Profit Margin",
+    "meaning": "The percentage of revenue that is profit",
+    "example": "The store has a 25% profit margin.",
+    "synonyms": ["earnings ratio", "gain percentage"],
+    "antonyms": []
+  },
+  {
+    "word": "Supply Chain",
+    "meaning": "The network between a company and its suppliers to produce products",
+    "example": "The supply chain was disrupted due to global events.",
+    "synonyms": ["logistics network", "distribution chain"],
+    "antonyms": []
+  },
+  {
+    "word": "Business Plan",
+    "meaning": "A formal document outlining business goals and strategies",
+    "example": "The entrepreneur wrote a detailed business plan.",
+    "synonyms": ["strategy document", "plan"],
+    "antonyms": []
+  },
+  {
+    "word": "Merchandise",
+    "meaning": "Goods that are bought and sold",
+    "example": "The store sells merchandise online and offline.",
+    "synonyms": ["products", "goods"],
+    "antonyms": []
+  },
+  {
+    "word": "Networking",
+    "meaning": "Building relationships for business purposes",
+    "example": "Networking helped him find investors for his startup.",
+    "synonyms": ["connections", "relationship building"],
+    "antonyms": []
+  },
+  {
+    "word": "Negotiation",
+    "meaning": "Discussion to reach an agreement",
+    "example": "Negotiation skills are key in closing deals.",
+    "synonyms": ["bargaining", "deal-making"],
+    "antonyms": []
+  },
+  {
+    "word": "Contract",
+    "meaning": "A legally binding agreement",
+    "example": "They signed a contract to formalize the partnership.",
+    "synonyms": ["agreement", "deal"],
+    "antonyms": []
+  },
+  {
+    "word": "Revenue Model",
+    "meaning": "A framework for generating income",
+    "example": "The subscription revenue model ensures steady cash flow.",
+    "synonyms": ["business model", "income plan"],
+    "antonyms": []
+  },
+  {
+    "word": "Branding",
+    "meaning": "The process of creating a unique brand identity",
+    "example": "Effective branding improves customer loyalty.",
+    "synonyms": ["marketing identity", "brand image"],
+    "antonyms": []
+  },
+  {
+    "word": "Outsourcing",
+    "meaning": "Hiring external parties to perform business activities",
+    "example": "Outsourcing reduces operational costs.",
+    "synonyms": ["delegation", "contracting out"],
+    "antonyms": ["insourcing"]
+  },
+  {
+    "word": "IPO Valuation",
+    "meaning": "The estimated market value of a company at IPO",
+    "example": "The IPO valuation attracted many investors.",
+    "synonyms": ["public offering value", "market worth"],
+    "antonyms": []
+  },
+  {
+    "word": "Crowdfunding",
+    "meaning": "Raising money from a large number of people",
+    "example": "The startup raised $50k through crowdfunding.",
+    "synonyms": ["fundraising", "community funding"],
+    "antonyms": []
+  },
+  {
+    "word": "Monopoly",
+    "meaning": "Exclusive control over a market",
+    "example": "The company held a monopoly in the region.",
+    "synonyms": ["dominance", "exclusive control"],
+    "antonyms": ["competition"]
+  },
+  {
+    "word": "Venture Capital",
+    "meaning": "Funding for startups with high growth potential",
+    "example": "Venture capital helped the company scale quickly.",
+    "synonyms": ["investment", "funding"],
+    "antonyms": []
+  },
+  {
+    "word": "Market Research",
+    "meaning": "The process of gathering information about consumers and markets",
+    "example": "Market research guided the new product launch.",
+    "synonyms": ["survey", "analysis"],
+    "antonyms": []
+  },
+  {
+    "word": "Benchmark",
+    "meaning": "A standard or point of reference",
+    "example": "The company used industry benchmarks to set goals.",
+    "synonyms": ["standard", "reference point"],
+    "antonyms": []
+  },
+  {
+    "word": "CEO",
+    "meaning": "Chief Executive Officer of a company",
+    "example": "The CEO announced a new strategy for growth.",
+    "synonyms": ["chief executive", "leader"],
+    "antonyms": []
+  },
+  {
+    "word": "CFO",
+    "meaning": "Chief Financial Officer responsible for finances",
+    "example": "The CFO presented the quarterly financial report.",
+    "synonyms": ["finance head", "treasurer"],
+    "antonyms": []
+  },
+  {
+    "word": "Share",
+    "meaning": "A unit of ownership in a company",
+    "example": "He bought 100 shares of the company.",
+    "synonyms": ["stock", "equity"],
+    "antonyms": []
+  },
+  {
+    "word": "Dividend Yield",
+    "meaning": "A measure of dividend income relative to stock price",
+    "example": "The stock has a 5% dividend yield.",
+    "synonyms": ["profit rate", "return"],
+    "antonyms": []
+  },
+  {
+    "word": "Asset",
+    "meaning": "Anything of value owned by a business",
+    "example": "Real estate is a valuable company asset.",
+    "synonyms": ["property", "resource"],
+    "antonyms": ["liability"]
+  },
+  {
+    "word": "Liability",
+    "meaning": "A company's legal financial debts",
+    "example": "Loans are considered liabilities for a business.",
+    "synonyms": ["debt", "obligation"],
+    "antonyms": ["asset"]
+  },
+  {
+    "word": "Balance Sheet",
+    "meaning": "A financial statement showing assets, liabilities, and equity",
+    "example": "The balance sheet reflected the company's strong position.",
+    "synonyms": ["financial statement", "account summary"],
+    "antonyms": []
+  },
+  {
+    "word": "Revenue Forecast",
+    "meaning": "Projected income over a period of time",
+    "example": "The revenue forecast predicted growth next year.",
+    "synonyms": ["projection", "prediction"],
+    "antonyms": []
+  }
+]

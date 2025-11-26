@@ -1,0 +1,72 @@
+[
+  {
+    "word": "Itinerary",
+    "meaning": "A planned route or journey",
+    "example": "Our travel itinerary included Paris and Rome.",
+    "synonyms": ["schedule", "plan"],
+    "antonyms": []
+  },
+  {
+    "word": "Cuisine",
+    "meaning": "A style or method of cooking",
+    "example": "Italian cuisine is famous for pasta and pizza.",
+    "synonyms": ["cooking", "food style"],
+    "antonyms": []
+  },
+  {
+    "word": "Backpacking",
+    "meaning": "Traveling with minimal luggage, often on a budget",
+    "example": "They spent the summer backpacking across Europe.",
+    "synonyms": ["hiking travel", "budget travel"],
+    "antonyms": []
+  },
+  {
+    "word": "Heritage",
+    "meaning": "Cultural traditions and history passed down through generations",
+    "example": "The city is rich in cultural heritage.",
+    "synonyms": ["legacy", "tradition"],
+    "antonyms": []
+  },
+  {
+    "word": "Excursion",
+    "meaning": "A short journey or trip, usually for leisure",
+    "example": "We went on a weekend excursion to the mountains.",
+    "synonyms": ["outing", "trip"],
+    "antonyms": []
+  },
+  {
+    "word": "Landmark",
+    "meaning": "A prominent or historically significant building or site",
+    "example": "The Eiffel Tower is a famous landmark.",
+    "synonyms": ["monument", "icon"],
+    "antonyms": []
+  },
+  {
+    "word": "Custom",
+    "meaning": "A traditional practice or way of life",
+    "example": "Local customs vary from region to region.",
+    "synonyms": ["tradition", "ritual"],
+    "antonyms": []
+  },
+  {
+    "word": "Souvenir",
+    "meaning": "An object kept as a reminder of a place or event",
+    "example": "She bought a small souvenir from the trip.",
+    "synonyms": ["memento", "keepsake"],
+    "antonyms": []
+  },
+  {
+    "word": "Expedition",
+    "meaning": "A journey undertaken for a specific purpose, often exploration",
+    "example": "The scientists went on an expedition to the Arctic.",
+    "synonyms": ["journey", "voyage"],
+    "antonyms": []
+  },
+  {
+    "word": "Culture",
+    "meaning": "The social behaviors, arts, and traditions of a group",
+    "example": "Japanese culture emphasizes respect and harmony.",
+    "synonyms": ["civilization", "way of life"],
+    "antonyms": []
+  }
+]

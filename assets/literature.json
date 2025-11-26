@@ -1,0 +1,128 @@
+[
+  {
+    "word": "Protagonist",
+    "meaning": "The main character in a story",
+    "example": "Harry Potter is the protagonist of the series.",
+    "synonyms": ["hero", "main character"],
+    "antonyms": ["antagonist"]
+  },
+  {
+    "word": "Alliteration",
+    "meaning": "Repetition of consonant sounds at the beginning of words",
+    "example": "Peter Piper picked a peck of pickled peppers.",
+    "synonyms": ["sound repetition"],
+    "antonyms": []
+  },
+  {
+    "word": "Antagonist",
+    "meaning": "A character or force in conflict with the main character",
+    "example": "Voldemort is the antagonist in Harry Potter.",
+    "synonyms": ["opponent", "enemy", "villain"],
+    "antonyms": ["protagonist", "hero"]
+  },
+  {
+    "word": "Metaphor",
+    "meaning": "A figure of speech comparing two unlike things without using 'like' or 'as'",
+    "example": "Time is a thief that steals our moments.",
+    "synonyms": ["comparison", "symbolism"],
+    "antonyms": []
+  },
+  {
+    "word": "Simile",
+    "meaning": "A figure of speech comparing two unlike things using 'like' or 'as'",
+    "example": "Her smile was as bright as the sun.",
+    "synonyms": ["comparison", "analogy"],
+    "antonyms": []
+  },
+  {
+    "word": "Hyperbole",
+    "meaning": "Exaggerated statements not meant to be taken literally",
+    "example": "I've told you a million times to clean your room.",
+    "synonyms": ["exaggeration", "overstatement"],
+    "antonyms": ["understatement"]
+  },
+  {
+    "word": "Irony",
+    "meaning": "The expression of meaning by using language that normally signifies the opposite",
+    "example": "The fire station burned down last night.",
+    "synonyms": ["sarcasm", "satire", "paradox"],
+    "antonyms": []
+  },
+  {
+    "word": "Foreshadowing",
+    "meaning": "A literary device giving hints or clues about future events",
+    "example": "The dark clouds foreshadowed the storm to come.",
+    "synonyms": ["preview", "hinting", "omen"],
+    "antonyms": []
+  },
+  {
+    "word": "Personification",
+    "meaning": "Giving human traits to non-human objects or animals",
+    "example": "The wind whispered through the trees.",
+    "synonyms": ["anthropomorphism", "humanization"],
+    "antonyms": []
+  },
+  {
+    "word": "Allegory",
+    "meaning": "A story with a hidden moral or political meaning",
+    "example": "Animal Farm is an allegory about totalitarianism.",
+    "synonyms": ["parable", "symbolism", "fable"],
+    "antonyms": []
+  },
+  {
+    "word": "Onomatopoeia",
+    "meaning": "A word that imitates the sound it represents",
+    "example": "The bees buzzed loudly in the garden.",
+    "synonyms": ["sound word", "imitative word"],
+    "antonyms": []
+  },
+  {
+    "word": "Genre",
+    "meaning": "A category of literary composition",
+    "example": "Romance, horror, and fantasy are popular genres.",
+    "synonyms": ["category", "type", "style"],
+    "antonyms": []
+  },
+  {
+    "word": "Climax",
+    "meaning": "The most intense, exciting, or important point of a story",
+    "example": "The battle scene was the climax of the movie.",
+    "synonyms": ["peak", "pinnacle", "high point"],
+    "antonyms": ["anticlimax", "low point"]
+  },
+  {
+    "word": "Resolution",
+    "meaning": "The part of the story where the conflict is resolved",
+    "example": "The story ends with the hero finding peace, marking the resolution.",
+    "synonyms": ["conclusion", "ending", "denouement"],
+    "antonyms": ["beginning", "climax"]
+  },
+  {
+    "word": "Dialogue",
+    "meaning": "A conversation between two or more characters",
+    "example": "The dialogue between the characters revealed their personalities.",
+    "synonyms": ["conversation", "talk", "exchange"],
+    "antonyms": ["monologue"]
+  },
+  {
+    "word": "Narrator",
+    "meaning": "The person who tells the story",
+    "example": "The story is told by an unreliable narrator.",
+    "synonyms": ["storyteller", "voice"],
+    "antonyms": []
+  },
+  {
+    "word": "Imagery",
+    "meaning": "Descriptive language that appeals to the senses",
+    "example": "The author used vivid imagery to describe the sunset.",
+    "synonyms": ["description", "visualization", "symbolism"],
+    "antonyms": []
+  },
+  {
+    "word": "Symbolism",
+    "meaning": "Use of symbols to represent ideas or qualities",
+    "example": "The dove is a symbol of peace.",
+    "synonyms": ["representation", "significance", "metaphor"],
+    "antonyms": []
+  }
+]

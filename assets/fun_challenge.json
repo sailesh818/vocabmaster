@@ -1,0 +1,93 @@
+[
+  {
+    "word": "Riddle",
+    "meaning": "A question or statement intentionally phrased to require ingenuity in ascertaining its answer",
+    "example": "She solved the tricky riddle in seconds.",
+    "synonyms": ["puzzle", "enigma", "conundrum"],
+    "antonyms": ["answer", "solution"]
+  },
+  {
+    "word": "Brainstorm",
+    "meaning": "A spontaneous group discussion to produce ideas and solve problems",
+    "example": "The team had a quick brainstorm session to find new app features.",
+    "synonyms": ["idea session", "creative thinking"],
+    "antonyms": []
+  },
+  {
+    "word": "Quiz",
+    "meaning": "A test of knowledge, especially a brief, informal test",
+    "example": "The teacher gave the students a pop quiz on vocabulary.",
+    "synonyms": ["test", "exam", "challenge"],
+    "antonyms": []
+  },
+  {
+    "word": "Puzzle",
+    "meaning": "A game, problem, or toy designed to test ingenuity or knowledge",
+    "example": "He enjoys doing crossword puzzles every morning.",
+    "synonyms": ["conundrum", "riddle", "brain-teaser"],
+    "antonyms": []
+  },
+  {
+    "word": "Challenge",
+    "meaning": "A call to take part in a contest or competition",
+    "example": "She accepted the coding challenge and completed it in one day.",
+    "synonyms": ["contest", "competition", "dare"],
+    "antonyms": ["surrender", "give-up"]
+  },
+  {
+    "word": "Trivia",
+    "meaning": "Detailed or obscure facts, especially interesting ones",
+    "example": "He loves playing trivia games with his friends.",
+    "synonyms": ["facts", "information", "knowledge"],
+    "antonyms": []
+  },
+  {
+  "word": "Mind-Bender",
+  "meaning": "A puzzle or problem that is extremely difficult and requires deep thinking",
+  "example": "This math problem is a real mind-bender!",
+  "synonyms": ["brain-teaser", "conundrum"],
+  "antonyms": []
+},
+{
+  "word": "Observation",
+  "meaning": "The action of carefully watching and noticing details",
+  "example": "Good detectives rely on keen observation skills.",
+  "synonyms": ["notice", "perception", "awareness"],
+  "antonyms": ["ignorance", "overlooking"]
+},
+{
+  "word": "Creativity",
+  "meaning": "The ability to produce original ideas or solutions",
+  "example": "Her creativity helped design the most innovative game levels.",
+  "synonyms": ["imagination", "innovation", "originality"],
+  "antonyms": ["banality", "unimaginativeness"]
+},
+{
+  "word": "Deduction",
+  "meaning": "Reasoning to reach a conclusion based on available evidence",
+  "example": "Sherlock Holmes' deduction skills were unparalleled.",
+  "synonyms": ["reasoning", "inference", "logic"],
+  "antonyms": ["guesswork", "speculation"]
+},
+{
+  "word": "Observation Game",
+  "meaning": "A game that tests how well you notice and remember details",
+  "example": "They played an observation game to sharpen their attention to detail.",
+  "synonyms": ["memory game", "focus challenge"],
+  "antonyms": []
+},
+  {
+    "word": "Logic",
+    "meaning": "Reasoning conducted according to strict principles of validity",
+    "example": "The puzzle required a lot of logic to solve.",
+    "synonyms": ["reasoning", "deduction", "rationality"],
+    "antonyms": ["irrationality", "illogic"]
+  },
+  {
+    "word": "Strategy",
+    "meaning": "A plan of action designed to achieve a long-term aim",
+    "example": "He developed a clever strategy to win the game.",
+    "synonyms": ["plan", "approach", "tactic"],
+    "antonyms": ["improvisation", "chaos"]
+  }
+]

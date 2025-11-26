@@ -1,0 +1,72 @@
+[
+  {
+    "word": "Fandom",
+    "meaning": "A community of fans sharing interest in something",
+    "example": "The Marvel fandom is huge worldwide.",
+    "synonyms": ["fanbase", "followers"],
+    "antonyms": []
+  },
+  {
+    "word": "Meme",
+    "meaning": "A humorous image, video, or text shared online",
+    "example": "The cat meme went viral on social media.",
+    "synonyms": ["joke", "viral content"],
+    "antonyms": []
+  },
+  {
+    "word": "Trend",
+    "meaning": "A general direction in which something is developing or changing",
+    "example": "TikTok dances are a popular trend among teens.",
+    "synonyms": ["fashion", "movement", "craze"],
+    "antonyms": ["obscurity"]
+  },
+  {
+    "word": "Viral",
+    "meaning": "Something rapidly spreading or gaining popularity online",
+    "example": "The video became viral within hours.",
+    "synonyms": ["popular", "trending"],
+    "antonyms": ["unknown"]
+  },
+  {
+    "word": "Influencer",
+    "meaning": "A person who can affect others’ decisions through social media",
+    "example": "She became an influencer promoting eco-friendly products.",
+    "synonyms": ["opinion leader", "promoter"],
+    "antonyms": []
+  },
+  {
+    "word": "Streaming",
+    "meaning": "Delivering media content over the internet in real-time",
+    "example": "Many watch series through streaming platforms like Netflix.",
+    "synonyms": ["online broadcast", "media delivery"],
+    "antonyms": ["offline"]
+  },
+  {
+    "word": "Pop Icon",
+    "meaning": "A famous personality widely recognized in pop culture",
+    "example": "Michael Jackson is a global pop icon.",
+    "synonyms": ["celebrity", "legend"],
+    "antonyms": []
+  },
+  {
+    "word": "Hashtag",
+    "meaning": "A word or phrase preceded by # used to identify messages",
+    "example": "She used #TravelGoals to share vacation photos.",
+    "synonyms": ["tag", "label"],
+    "antonyms": []
+  },
+  {
+    "word": "Crossover",
+    "meaning": "When characters or stories from different franchises meet",
+    "example": "The movie had a Marvel-DC crossover.",
+    "synonyms": ["collaboration", "merging"],
+    "antonyms": []
+  },
+  {
+    "word": "Throwback",
+    "meaning": "Something from the past shared or revisited nostalgically",
+    "example": "He posted a throwback picture from his childhood.",
+    "synonyms": ["retro", "nostalgic"],
+    "antonyms": ["modern", "current"]
+  }
+]

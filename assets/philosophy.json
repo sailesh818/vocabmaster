@@ -1,0 +1,107 @@
+[
+  {
+    "word": "Existential",
+    "meaning": "Relating to human existence and experience",
+    "example": "He pondered existential questions about life.",
+    "synonyms": ["being-related", "ontological"],
+    "antonyms": []
+  },
+  {
+    "word": "Ethics",
+    "meaning": "Moral principles guiding behavior",
+    "example": "Medical ethics are important for doctors.",
+    "synonyms": ["morality", "principles"],
+    "antonyms": []
+  },
+  {
+    "word": "Metaphysics",
+    "meaning": "Branch of philosophy exploring reality and existence",
+    "example": "Metaphysics asks questions about the nature of reality.",
+    "synonyms": ["ontology", "philosophical theory"],
+    "antonyms": []
+  },
+  {
+    "word": "Epistemology",
+    "meaning": "Study of knowledge and belief",
+    "example": "Epistemology examines how we know what we know.",
+    "synonyms": ["theory of knowledge"],
+    "antonyms": []
+  },
+  {
+    "word": "Nihilism",
+    "meaning": "The belief that life has no inherent meaning",
+    "example": "Some philosophers explore nihilism as a critique of values.",
+    "synonyms": ["meaninglessness", "skepticism"],
+    "antonyms": ["purpose", "belief"]
+  },
+  {
+    "word": "Utilitarianism",
+    "meaning": "Philosophy that actions should maximize happiness for the majority",
+    "example": "Utilitarianism guides many ethical decisions.",
+    "synonyms": ["consequentialism"],
+    "antonyms": ["egoism"]
+  },
+  {
+    "word": "Stoicism",
+    "meaning": "Philosophy promoting self-control and resilience",
+    "example": "Stoicism teaches people to remain calm in adversity.",
+    "synonyms": ["resilience", "self-discipline"],
+    "antonyms": ["emotional instability"]
+  },
+  {
+    "word": "Rationalism",
+    "meaning": "Belief that reason is the primary source of knowledge",
+    "example": "Rationalism values logic over sensory experience.",
+    "synonyms": ["logic-based thinking", "reasoning"],
+    "antonyms": ["empiricism"]
+  },
+  {
+    "word": "Empiricism",
+    "meaning": "Knowledge derived from observation and experience",
+    "example": "Empiricism emphasizes experimentation and evidence.",
+    "synonyms": ["experience-based knowledge"],
+    "antonyms": ["rationalism"]
+  },
+  {
+    "word": "Determinism",
+    "meaning": "Belief that all events are determined by causes",
+    "example": "Determinism challenges the concept of free will.",
+    "synonyms": ["causality", "predestination"],
+    "antonyms": ["free will"]
+  },
+  {
+    "word": "Skepticism",
+    "meaning": "Doubt or questioning of knowledge claims",
+    "example": "Skepticism encourages careful examination of beliefs.",
+    "synonyms": ["doubt", "questioning"],
+    "antonyms": ["certainty", "belief"]
+  },
+  {
+    "word": "Dialectics",
+    "meaning": "Method of reasoning through dialogue and contradiction",
+    "example": "Dialectics is used in philosophy to uncover truth.",
+    "synonyms": ["logical discussion", "debate"],
+    "antonyms": []
+  },
+  {
+    "word": "Idealism",
+    "meaning": "Belief that reality is fundamentally mental or spiritual",
+    "example": "Idealism focuses on the power of ideas.",
+    "synonyms": ["spiritualism", "mentalism"],
+    "antonyms": ["materialism"]
+  },
+  {
+    "word": "Materialism",
+    "meaning": "Philosophy that physical matter is the primary reality",
+    "example": "Materialism emphasizes tangible, observable phenomena.",
+    "synonyms": ["physicalism"],
+    "antonyms": ["idealism"]
+  },
+  {
+    "word": "Absurdism",
+    "meaning": "Philosophy that life is inherently without meaning but humans seek it",
+    "example": "Absurdism explores the tension between human purpose and the universe.",
+    "synonyms": ["existential absurdity"],
+    "antonyms": []
+  }
+]

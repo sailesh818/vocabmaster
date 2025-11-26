@@ -1,0 +1,142 @@
+[
+  {
+    "word": "Algorithm",
+    "meaning": "A step-by-step procedure to solve a problem or perform a task",
+    "example": "The search engine uses a complex algorithm to rank results.",
+    "synonyms": ["procedure", "method"],
+    "antonyms": []
+  },
+  {
+    "word": "Artificial Intelligence",
+    "meaning": "The simulation of human intelligence in machines",
+    "example": "AI is being used to improve healthcare diagnostics.",
+    "synonyms": ["AI", "machine intelligence"],
+    "antonyms": []
+  },
+  {
+    "word": "Binary",
+    "meaning": "A system of numerical notation using only 0 and 1",
+    "example": "Computers operate using binary code.",
+    "synonyms": ["base-2"],
+    "antonyms": []
+  },
+  {
+    "word": "Quantum",
+    "meaning": "Relating to the smallest units of matter and energy",
+    "example": "Quantum computers promise huge computational power.",
+    "synonyms": ["subatomic", "microscopic"],
+    "antonyms": []
+  },
+  {
+    "word": "Encryption",
+    "meaning": "The process of encoding information to prevent unauthorized access",
+    "example": "Online banking uses encryption to secure transactions.",
+    "synonyms": ["encoding", "ciphering"],
+    "antonyms": ["decryption"]
+  },
+  {
+    "word": "Data",
+    "meaning": "Facts or information collected for analysis",
+    "example": "The company collects user data to improve services.",
+    "synonyms": ["information", "statistics"],
+    "antonyms": []
+  },
+  {
+    "word": "Cybersecurity",
+    "meaning": "Protection of computer systems from theft or damage",
+    "example": "Cybersecurity is crucial for protecting sensitive information.",
+    "synonyms": ["information security", "IT security"],
+    "antonyms": []
+  },
+  {
+    "word": "Cloud Computing",
+    "meaning": "Storing and accessing data over the internet instead of local storage",
+    "example": "Many businesses use cloud computing for flexibility.",
+    "synonyms": ["cloud services"],
+    "antonyms": []
+  },
+  {
+    "word": "Machine Learning",
+    "meaning": "A subset of AI where machines learn from data",
+    "example": "Machine learning helps recommend products online.",
+    "synonyms": ["ML", "predictive modeling"],
+    "antonyms": []
+  },
+  {
+    "word": "Neuron",
+    "meaning": "A nerve cell that transmits information",
+    "example": "The brain contains billions of neurons.",
+    "synonyms": ["nerve cell"],
+    "antonyms": []
+  },
+  {
+    "word": "Nanotechnology",
+    "meaning": "Manipulation of matter at an atomic or molecular scale",
+    "example": "Nanotechnology is used in medicine for drug delivery.",
+    "synonyms": ["nano-tech", "molecular engineering"],
+    "antonyms": []
+  },
+  {
+    "word": "Photon",
+    "meaning": "A particle representing a quantum of light",
+    "example": "Photons are essential in fiber optic communication.",
+    "synonyms": ["light particle"],
+    "antonyms": []
+  },
+  {
+    "word": "Genome",
+    "meaning": "The complete set of genes in an organism",
+    "example": "Scientists are mapping the human genome.",
+    "synonyms": ["genetic code"],
+    "antonyms": []
+  },
+  {
+    "word": "Robot",
+    "meaning": "A machine capable of carrying out tasks automatically",
+    "example": "Robots are used in manufacturing and surgery.",
+    "synonyms": ["android", "automaton"],
+    "antonyms": []
+  },
+  {
+    "word": "Circuit",
+    "meaning": "A complete path for electric current to flow",
+    "example": "The LED light works when the circuit is complete.",
+    "synonyms": ["electrical loop", "pathway"],
+    "antonyms": []
+  },
+  {
+    "word": "Semiconductor",
+    "meaning": "A material with electrical conductivity between a conductor and an insulator",
+    "example": "Semiconductors are essential for making microchips.",
+    "synonyms": ["chip material"],
+    "antonyms": []
+  },
+  {
+    "word": "Virtual Reality",
+    "meaning": "A computer-generated simulation of a 3D environment",
+    "example": "Gamers enjoy immersive experiences with virtual reality.",
+    "synonyms": ["VR", "simulation"],
+    "antonyms": []
+  },
+  {
+    "word": "Augmented Reality",
+    "meaning": "Overlaying digital content onto the real world",
+    "example": "AR apps enhance how we see our environment.",
+    "synonyms": ["AR", "mixed reality"],
+    "antonyms": []
+  },
+  {
+    "word": "Algorithmic Trading",
+    "meaning": "Using algorithms to automatically buy and sell stocks",
+    "example": "Banks rely on algorithmic trading for efficiency.",
+    "synonyms": ["auto trading"],
+    "antonyms": []
+  },
+  {
+    "word": "Blockchain",
+    "meaning": "A decentralized ledger of digital transactions",
+    "example": "Cryptocurrencies use blockchain for secure transactions.",
+    "synonyms": ["distributed ledger"],
+    "antonyms": []
+  }
+]

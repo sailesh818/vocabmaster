@@ -1,0 +1,338 @@
+[
+  {
+    "word": "Efficient",
+    "meaning": "Working in a quick and organized way",
+    "example": "She is very efficient at her job.",
+    "synonyms": ["effective", "organized"],
+    "antonyms": ["inefficient"]
+  },
+  {
+    "word": "Reliable",
+    "meaning": "Able to be trusted",
+    "example": "He is a reliable person.",
+    "synonyms": ["trustworthy", "dependable"],
+    "antonyms": ["unreliable"]
+  },
+  {
+    "word": "Honest",
+    "meaning": "Telling the truth and not cheating",
+    "example": "She is always honest with her friends.",
+    "synonyms": ["truthful", "sincere"],
+    "antonyms": ["dishonest"]
+  },
+  {
+    "word": "Creative",
+    "meaning": "Using imagination to make new ideas",
+    "example": "He is creative in solving problems.",
+    "synonyms": ["imaginative", "innovative"],
+    "antonyms": ["unimaginative"]
+  },
+  {
+    "word": "Calm",
+    "meaning": "Not angry, excited, or upset",
+    "example": "She stayed calm during the exam.",
+    "synonyms": ["peaceful", "relaxed"],
+    "antonyms": ["anxious"]
+  },
+  {
+    "word": "Brave",
+    "meaning": "Showing courage",
+    "example": "The firefighter was brave during the rescue.",
+    "synonyms": ["courageous", "fearless"],
+    "antonyms": ["cowardly"]
+  },
+  {
+    "word": "Polite",
+    "meaning": "Having good manners",
+    "example": "He is polite to everyone.",
+    "synonyms": ["respectful", "courteous"],
+    "antonyms": ["rude"]
+  },
+  {
+    "word": "Generous",
+    "meaning": "Willing to give more than expected",
+    "example": "She is generous with her time.",
+    "synonyms": ["kind", "charitable"],
+    "antonyms": ["selfish"]
+  },
+  {
+    "word": "Active",
+    "meaning": "Always busy and doing things",
+    "example": "He lives a very active life.",
+    "synonyms": ["energetic", "lively"],
+    "antonyms": ["inactive"]
+  },
+  {
+    "word": "Confident",
+    "meaning": "Sure of yourself and your abilities",
+    "example": "She feels confident about her speech.",
+    "synonyms": ["self-assured", "bold"],
+    "antonyms": ["insecure"]
+  },
+  {
+    "word": "Ambitious",
+    "meaning": "Having a strong desire to succeed",
+    "example": "He is an ambitious student.",
+    "synonyms": ["motivated", "driven"],
+    "antonyms": ["unmotivated"]
+  },
+  {
+    "word": "Friendly",
+    "meaning": "Kind and pleasant",
+    "example": "The new neighbor is very friendly.",
+    "synonyms": ["kind", "warm"],
+    "antonyms": ["hostile"]
+  },
+  {
+    "word": "Lazy",
+    "meaning": "Not willing to work or use energy",
+    "example": "He felt lazy and stayed in bed all day.",
+    "synonyms": ["idle", "inactive"],
+    "antonyms": ["hardworking"]
+  },
+  {
+    "word": "Curious",
+    "meaning": "Wanting to know more about something",
+    "example": "Children are naturally curious.",
+    "synonyms": ["inquisitive", "interested"],
+    "antonyms": ["uninterested"]
+  },
+  {
+    "word": "Sincere",
+    "meaning": "Saying what you really feel",
+    "example": "Her apology was sincere.",
+    "synonyms": ["honest", "genuine"],
+    "antonyms": ["insincere"]
+  },
+  {
+    "word": "Comfortable",
+    "meaning": "Providing physical ease",
+    "example": "This chair is very comfortable.",
+    "synonyms": ["cozy", "pleasant"],
+    "antonyms": ["uncomfortable"]
+  },
+  {
+    "word": "Flexible",
+    "meaning": "Able to change or be changed easily",
+    "example": "She has a flexible schedule.",
+    "synonyms": ["adaptable", "adjustable"],
+    "antonyms": ["rigid"]
+  },
+  {
+    "word": "Helpful",
+    "meaning": "Giving assistance",
+    "example": "He was helpful during the event.",
+    "synonyms": ["supportive", "useful"],
+    "antonyms": ["unhelpful"]
+  },
+  {
+    "word": "Strict",
+    "meaning": "Expecting rules to be followed",
+    "example": "The teacher is strict in class.",
+    "synonyms": ["firm", "serious"],
+    "antonyms": ["lenient"]
+  },
+  {
+    "word": "Smart",
+    "meaning": "Intelligent or clever",
+    "example": "She is a smart student.",
+    "synonyms": ["bright", "intelligent"],
+    "antonyms": ["dull"]
+  },
+  {
+    "word": "Proud",
+    "meaning": "Feeling happy about achievement",
+    "example": "She is proud of her work.",
+    "synonyms": ["satisfied", "pleased"],
+    "antonyms": ["ashamed"]
+  },
+  {
+    "word": "Patient",
+    "meaning": "Able to wait calmly",
+    "example": "You must be patient with children.",
+    "synonyms": ["calm", "tolerant"],
+    "antonyms": ["impatient"]
+  },
+  {
+    "word": "Serious",
+    "meaning": "Not joking; important",
+    "example": "This is a serious matter.",
+    "synonyms": ["grave", "solemn"],
+    "antonyms": ["funny"]
+  },
+  {
+    "word": "Sharp",
+    "meaning": "Having a quick mind",
+    "example": "He has a sharp memory.",
+    "synonyms": ["quick", "keen"],
+    "antonyms": ["slow"]
+  },
+  {
+    "word": "Tough",
+    "meaning": "Strong and not easily harmed",
+    "example": "The exam was tough.",
+    "synonyms": ["difficult", "strong"],
+    "antonyms": ["weak"]
+  },
+  {
+    "word": "Wild",
+    "meaning": "Living in nature; uncontrolled",
+    "example": "Lions are wild animals.",
+    "synonyms": ["untamed", "free"],
+    "antonyms": ["tame"]
+  },
+  {
+    "word": "Rapid",
+    "meaning": "Happening quickly",
+    "example": "There was rapid growth in sales.",
+    "synonyms": ["fast", "quick"],
+    "antonyms": ["slow"]
+  },
+  {
+    "word": "Silent",
+    "meaning": "Completely quiet",
+    "example": "The room was silent.",
+    "synonyms": ["quiet", "mute"],
+    "antonyms": ["noisy"]
+  },
+  {
+    "word": "Simple",
+    "meaning": "Easy to understand",
+    "example": "The instructions are simple.",
+    "synonyms": ["easy", "basic"],
+    "antonyms": ["complex"]
+  },
+  {
+    "word": "Famous",
+    "meaning": "Known by many people",
+    "example": "He is a famous actor.",
+    "synonyms": ["well-known", "popular"],
+    "antonyms": ["unknown"]
+  },
+  {
+    "word": "Bright",
+    "meaning": "Full of light; intelligent",
+    "example": "The room is bright.",
+    "synonyms": ["shiny", "smart"],
+    "antonyms": ["dim"]
+  },
+  {
+    "word": "Smooth",
+    "meaning": "Even and free from roughness",
+    "example": "The surface is smooth.",
+    "synonyms": ["soft", "flat"],
+    "antonyms": ["rough"]
+  },
+  {
+    "word": "Gentle",
+    "meaning": "Kind and calm",
+    "example": "She has a gentle voice.",
+    "synonyms": ["soft", "mild"],
+    "antonyms": ["harsh"]
+  },
+  {
+    "word": "Brilliant",
+    "meaning": "Very bright or intelligent",
+    "example": "That was a brilliant idea.",
+    "synonyms": ["excellent", "smart"],
+    "antonyms": ["ordinary"]
+  },
+  {
+    "word": "Lucky",
+    "meaning": "Having good fortune",
+    "example": "He was lucky to win.",
+    "synonyms": ["fortunate", "blessed"],
+    "antonyms": ["unlucky"]
+  },
+  {
+    "word": "Busy",
+    "meaning": "Having many things to do",
+    "example": "He is busy at work.",
+    "synonyms": ["occupied", "active"],
+    "antonyms": ["free"]
+  },
+  {
+    "word": "Huge",
+    "meaning": "Very large",
+    "example": "The elephant is huge.",
+    "synonyms": ["big", "giant"],
+    "antonyms": ["small"]
+  },
+  {
+    "word": "Neat",
+    "meaning": "Clean and orderly",
+    "example": "Her room is neat.",
+    "synonyms": ["tidy", "clean"],
+    "antonyms": ["messy"]
+  },
+  {
+    "word": "Rapid",
+    "meaning": "Happening quickly",
+    "example": "The train moved at a rapid speed.",
+    "synonyms": ["fast", "quick"],
+    "antonyms": ["slow"]
+  },
+  {
+    "word": "Difficult",
+    "meaning": "Not easy",
+    "example": "The question was difficult.",
+    "synonyms": ["hard", "challenging"],
+    "antonyms": ["easy"]
+  },
+  {
+    "word": "Weak",
+    "meaning": "Not strong",
+    "example": "He felt weak after the illness.",
+    "synonyms": ["frail", "delicate"],
+    "antonyms": ["strong"]
+  },
+  {
+    "word": "Bitter",
+    "meaning": "Having a sharp, unpleasant taste",
+    "example": "The medicine is bitter.",
+    "synonyms": ["harsh", "sour"],
+    "antonyms": ["sweet"]
+  },
+  {
+    "word": "Proud",
+    "meaning": "Feeling deep pleasure or satisfaction",
+    "example": "She is proud of her achievements.",
+    "synonyms": ["pleased", "satisfied"],
+    "antonyms": ["ashamed"]
+  },
+  {
+    "word": "Early",
+    "meaning": "Before the usual time",
+    "example": "He arrived early.",
+    "synonyms": ["premature", "ahead"],
+    "antonyms": ["late"]
+  },
+  {
+    "word": "Calm",
+    "meaning": "Not disturbed or excited",
+    "example": "He remained calm in the storm.",
+    "synonyms": ["peaceful", "relaxed"],
+    "antonyms": ["agitated"]
+  },
+  {
+    "word": "Faithful",
+    "meaning": "Loyal and trustworthy",
+    "example": "Dogs are faithful animals.",
+    "synonyms": ["loyal", "trustworthy"],
+    "antonyms": ["disloyal"]
+  },
+  {
+    "word": "Bright",
+    "meaning": "Full of light",
+    "example": "Her dress is bright.",
+    "synonyms": ["shiny", "radiant"],
+    "antonyms": ["dark"]
+  },
+  {
+    "word": "Kind",
+    "meaning": "Showing care and compassion",
+    "example": "She is kind to others.",
+    "synonyms": ["helpful", "gentle"],
+    "antonyms": ["cruel"]
+  }
+]

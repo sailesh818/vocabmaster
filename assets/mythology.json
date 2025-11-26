@@ -1,0 +1,107 @@
+[
+  {
+    "word": "Titan",
+    "meaning": "A powerful giant in Greek mythology",
+    "example": "Cronus was a Titan in Greek mythology.",
+    "synonyms": ["giant", "deity"],
+    "antonyms": []
+  },
+  {
+    "word": "Valhalla",
+    "meaning": "The hall of slain warriors in Norse mythology",
+    "example": "Vikings dreamed of reaching Valhalla.",
+    "synonyms": ["heaven", "afterlife"],
+    "antonyms": []
+  },
+  {
+    "word": "Olympus",
+    "meaning": "The home of the Greek gods",
+    "example": "Zeus ruled from Mount Olympus.",
+    "synonyms": ["heaven", "divine abode"],
+    "antonyms": []
+  },
+  {
+    "word": "Asgard",
+    "meaning": "The realm of the Norse gods",
+    "example": "Thor traveled from Asgard to Midgard.",
+    "synonyms": ["heaven", "divine realm"],
+    "antonyms": []
+  },
+  {
+    "word": "Phoenix",
+    "meaning": "A mythical bird that regenerates from its ashes",
+    "example": "The phoenix rose from the flames stronger than before.",
+    "synonyms": ["immortal bird", "rebirth"],
+    "antonyms": []
+  },
+  {
+    "word": "Hydra",
+    "meaning": "A multi-headed serpent from Greek mythology",
+    "example": "Hercules had to slay the Hydra as one of his labors.",
+    "synonyms": ["serpent", "monster"],
+    "antonyms": []
+  },
+  {
+    "word": "Cerberus",
+    "meaning": "The three-headed dog guarding the entrance to Hades",
+    "example": "Cerberus prevented souls from leaving the underworld.",
+    "synonyms": ["guard dog", "beast"],
+    "antonyms": []
+  },
+  {
+    "word": "Mjolnir",
+    "meaning": "Thor's powerful hammer in Norse mythology",
+    "example": "Thor wielded Mjolnir to protect Asgard.",
+    "synonyms": ["hammer", "weapon"],
+    "antonyms": []
+  },
+  {
+    "word": "Anubis",
+    "meaning": "Egyptian god of mummification and the afterlife",
+    "example": "Anubis guided souls to the afterlife.",
+    "synonyms": ["deity", "god"],
+    "antonyms": []
+  },
+  {
+    "word": "Medusa",
+    "meaning": "A Gorgon in Greek mythology with snakes for hair",
+    "example": "Looking at Medusa turned people to stone.",
+    "synonyms": ["monster", "creature"],
+    "antonyms": []
+  },
+  {
+    "word": "Fenrir",
+    "meaning": "A monstrous wolf in Norse mythology",
+    "example": "Fenrir is foretold to bring chaos during Ragnarok.",
+    "synonyms": ["wolf", "beast"],
+    "antonyms": []
+  },
+  {
+    "word": "Pegasus",
+    "meaning": "A winged horse from Greek mythology",
+    "example": "Bellerophon rode Pegasus into battle.",
+    "synonyms": ["winged horse", "mythical creature"],
+    "antonyms": []
+  },
+  {
+    "word": "Hades",
+    "meaning": "The god of the underworld in Greek mythology",
+    "example": "Hades ruled over the dead in the underworld.",
+    "synonyms": ["underworld god", "deity"],
+    "antonyms": []
+  },
+  {
+    "word": "Odin",
+    "meaning": "The chief god in Norse mythology",
+    "example": "Odin sacrificed an eye to gain wisdom.",
+    "synonyms": ["All-Father", "deity"],
+    "antonyms": []
+  },
+  {
+    "word": "Sphinx",
+    "meaning": "A mythical creature with the body of a lion and the head of a human",
+    "example": "The Sphinx posed riddles to travelers in ancient Egypt.",
+    "synonyms": ["guardian", "creature"],
+    "antonyms": []
+  }
+]
