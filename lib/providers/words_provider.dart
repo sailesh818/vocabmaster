@@ -3,19 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class WordsProvider extends ChangeNotifier {
-  // All words (for Home / Daily Words)
-  List<Map<String, dynamic>> words = [];
-
-  // Favorites
+  List<Map<String, dynamic>> words = []; // all words (main + categories)
   List<Map<String, dynamic>> favoriteWords = [];
 
-  // Category-specific words
+  // Dynamic category storage
   Map<String, List<Map<String, dynamic>>> categoryWords = {};
-
-  // Track loading state per category
   Map<String, bool> categoryLoading = {};
 
-  // Map category names to their JSON filenames
+  // Map categories → JSON files
   final Map<String, String> categoryFileMap = {
     "Daily English": "daily_english.json",
     "Pop Culture": "pop_culture.json",
@@ -29,7 +24,9 @@ class WordsProvider extends ChangeNotifier {
     "Fun & Challenge": "fun_challenge.json",
   };
 
-  /// Load main words.json (for Home / Daily Word)
+  /// ---------------------------
+  /// Load main words.json (Home)
+  /// ---------------------------
   Future<void> loadWords() async {
     try {
       final String response = await rootBundle.loadString('assets/words.json');
@@ -42,15 +39,17 @@ class WordsProvider extends ChangeNotifier {
     }
   }
 
-  /// Load words for a specific category from assets/<category_file>
+  /// ----------------------------------------------------
+  /// Load words of a specific category (like Business)
+  /// ----------------------------------------------------
   Future<void> loadCategoryWords(String category) async {
-    if (categoryWords.containsKey(category)) return; // Already loaded
+    if (categoryWords.containsKey(category)) return; // already loaded
+
     categoryLoading[category] = true;
     notifyListeners();
 
     final String? fileName = categoryFileMap[category];
     if (fileName == null) {
-      // No file mapped for this category
       categoryWords[category] = [];
       categoryLoading[category] = false;
       notifyListeners();
@@ -58,19 +57,40 @@ class WordsProvider extends ChangeNotifier {
     }
 
     try {
-      final String response =
-          await rootBundle.loadString('assets/$fileName');
+      final String response = await rootBundle.loadString('assets/$fileName');
       final List data = json.decode(response);
       categoryWords[category] = List<Map<String, dynamic>>.from(data);
     } catch (e) {
-      categoryWords[category] = []; // If file not found or error
+      categoryWords[category] = [];
     } finally {
       categoryLoading[category] = false;
       notifyListeners();
     }
   }
 
-  /// Get words by category (returns a copy to prevent external mutation)
+  /// -------------------------------------------------------------
+  /// Load main words first, then all category words in parallel
+  /// -------------------------------------------------------------
+  Future<void> loadAllWords({bool includeCategories = true}) async {
+    await loadWords(); // load main words first
+    if (!includeCategories) return;
+
+    // Load all category words in parallel
+    await Future.wait(
+      categoryFileMap.keys.map((category) => loadCategoryWords(category)),
+    );
+
+    // Combine main + all categories for search / explore
+    List<Map<String, dynamic>> allCategoryWords = [];
+    for (var catList in categoryWords.values) {
+      allCategoryWords.addAll(catList);
+    }
+
+    words = [...words, ...allCategoryWords];
+    notifyListeners();
+  }
+
+  /// Get words by category name
   List<Map<String, dynamic>> getWordsByCategory(String category) {
     return List<Map<String, dynamic>>.from(categoryWords[category] ?? []);
   }
@@ -80,7 +100,9 @@ class WordsProvider extends ChangeNotifier {
     return categoryLoading[category] ?? false;
   }
 
-  /// Favorites management
+  /// -------------------------
+  /// Favorite Words Management
+  /// -------------------------
   void addFavorite(Map<String, dynamic> word) {
     if (!favoriteWords.any((w) => w["word"] == word["word"])) {
       favoriteWords.add(Map<String, dynamic>.from(word));

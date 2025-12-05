@@ -2,10 +2,10 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:vocab_master/providers/words_provider.dart';
-import 'package:vocab_master/home/pages/test_json_page.dart'; // All Words
-import 'package:vocab_master/home/pages/favorites_page.dart'; // Favorites
-import 'package:vocab_master/home/pages/mini_quiz_page.dart'; // Mini Quiz
-import 'package:vocab_master/home/pages/word_detail_page.dart'; // Word Detail
+import 'package:vocab_master/home/pages/test_json_page.dart';
+import 'package:vocab_master/home/pages/favorites_page.dart';
+import 'package:vocab_master/home/pages/mini_quiz_page.dart';
+import 'package:vocab_master/home/pages/word_detail_page.dart';
 
 class HomePages extends StatefulWidget {
   const HomePages({super.key});
@@ -16,17 +16,20 @@ class HomePages extends StatefulWidget {
 
 class _HomePagesState extends State<HomePages> {
   int dailyWordIndex = 0;
+  bool isLoading = true;
 
   @override
   void initState() {
     super.initState();
     final wordsProvider = Provider.of<WordsProvider>(context, listen: false);
 
-    // Safely pick a random word after first frame
-    WidgetsBinding.instance.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      await wordsProvider.loadAllWords();
+
       if (wordsProvider.words.isNotEmpty) {
         setState(() {
           dailyWordIndex = Random().nextInt(wordsProvider.words.length);
+          isLoading = false;
         });
       }
     });
@@ -53,15 +56,17 @@ class _HomePagesState extends State<HomePages> {
   Widget build(BuildContext context) {
     final wordsProvider = Provider.of<WordsProvider>(context);
 
-    if (wordsProvider.words.isEmpty) {
+    if (isLoading) {
       return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
+        body: Center(child: CircularProgressIndicator(color: Colors.lightBlue)),
       );
     }
 
     final word = wordsProvider.words[dailyWordIndex];
+    final categories = wordsProvider.categoryWords.keys.toList();
 
     return Scaffold(
+      backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
         title: const Text("Vocab Master"),
         backgroundColor: Colors.lightBlue,
@@ -91,74 +96,68 @@ class _HomePagesState extends State<HomePages> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Daily Word Section
-            Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [Colors.lightBlue.shade200, Colors.lightBlue.shade50],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black12,
-                    blurRadius: 8,
-                    offset: Offset(0, 4),
+            // ------------------------
+            // Daily Word Card
+            // ------------------------
+            Card(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+              elevation: 6,
+              shadowColor: Colors.blue.shade100,
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  gradient: LinearGradient(
+                    colors: [Colors.lightBlue.shade200, Colors.lightBlue.shade50],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
                   ),
-                ],
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
+                ),
+                padding: const EdgeInsets.all(24),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
                       "Word of the Day",
                       style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black87),
+                          fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black87),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 12),
                     Text(
                       word["word"],
                       style: const TextStyle(
-                          fontSize: 32,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black87),
+                          fontSize: 36, fontWeight: FontWeight.bold, color: Colors.black87),
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 10),
                     Text(
                       word["meaning"],
-                      style: const TextStyle(fontSize: 18),
+                      style: const TextStyle(fontSize: 18, color: Colors.black87),
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: 10),
                     Text(
                       "Example: ${word["example"]}",
                       style: const TextStyle(
-                          fontSize: 16, fontStyle: FontStyle.italic),
+                          fontSize: 16, fontStyle: FontStyle.italic, color: Colors.black87),
                     ),
                     const SizedBox(height: 16),
-                    // Flow buttons scrollable
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         children: [
-                          _gradientButton("Next Word", showNextWord,
-                              Colors.blueAccent, Colors.lightBlueAccent),
+                          _gradientButton(
+                              "Next Word", showNextWord, Colors.blueAccent, Colors.lightBlueAccent),
                           const SizedBox(width: 12),
-                          _gradientButton("Add to Favorites",
-                              () => addToFavorites(word), Colors.pink, Colors.redAccent),
+                          _gradientButton(
+                              "Add to Favorites",
+                              () => addToFavorites(word),
+                              Colors.pink,
+                              Colors.redAccent),
                           const SizedBox(width: 12),
                           _gradientButton(
                               "View Details",
                               () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (_) =>
-                                            WordDetailPage(word: word)),
-                                  ),
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (_) => WordDetailPage(word: word))),
                               Colors.green,
                               Colors.lightGreenAccent),
                         ],
@@ -168,8 +167,12 @@ class _HomePagesState extends State<HomePages> {
                 ),
               ),
             ),
+
             const SizedBox(height: 30),
-            // Quick Actions
+
+            // ------------------------
+            // Quick Actions Row
+            // ------------------------
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -179,8 +182,7 @@ class _HomePagesState extends State<HomePages> {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (_) => const TestJsonPage()),
+                      MaterialPageRoute(builder: (_) => const TestJsonPage()),
                     );
                   },
                 ),
@@ -206,39 +208,59 @@ class _HomePagesState extends State<HomePages> {
                 ),
               ],
             ),
+
             const SizedBox(height: 30),
-            // Streak / Progress
-            Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [Colors.lightBlue.shade100, Colors.lightBlue.shade50],
+
+            // ------------------------
+            // Category Quiz Cards
+            // ------------------------
+            Column(
+              children: categories.map((category) {
+                return _categoryQuizBox(category, () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => MiniQuizPage(
+                        isBusinessQuiz: category == "Business",
+                        category: category,
+                      ),
+                    ),
+                  );
+                });
+              }).toList(),
+            ),
+
+            const SizedBox(height: 30),
+
+            // ------------------------
+            // Streak / Progress Card
+            // ------------------------
+            Card(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+              elevation: 4,
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  gradient: LinearGradient(
+                      colors: [Colors.lightBlue.shade100, Colors.lightBlue.shade50]),
                 ),
-                borderRadius: BorderRadius.circular(16),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black12,
-                    blurRadius: 6,
-                    offset: Offset(0, 3),
-                  ),
-                ],
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding: const EdgeInsets.all(20),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: const [
-                    Text(
-                      "Streak",
-                      style: TextStyle(
-                          fontSize: 16, fontWeight: FontWeight.bold),
+                    Column(
+                      children: [
+                        Text("Streak", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                        SizedBox(height: 6),
+                        Text("3 days", style: TextStyle(fontSize: 16)),
+                      ],
                     ),
-                    Text(
-                      "3 days",
-                      style: TextStyle(fontSize: 16),
-                    ),
-                    Text(
-                      "Points: 50",
-                      style: TextStyle(fontSize: 16),
+                    Column(
+                      children: [
+                        Text("Points", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                        SizedBox(height: 6),
+                        Text("50", style: TextStyle(fontSize: 16)),
+                      ],
                     ),
                   ],
                 ),
@@ -250,11 +272,11 @@ class _HomePagesState extends State<HomePages> {
     );
   }
 
+  // ------------------------
   // Quick Action Widget
+  // ------------------------
   Widget _quickAction(
-      {required IconData icon,
-      required String label,
-      required VoidCallback onTap}) {
+      {required IconData icon, required String label, required VoidCallback onTap}) {
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(12),
@@ -262,30 +284,30 @@ class _HomePagesState extends State<HomePages> {
         children: [
           CircleAvatar(
             radius: 30,
-            backgroundColor: Colors.lightBlue.shade300,
+            backgroundColor: Colors.lightBlue.shade400,
             child: Icon(icon, size: 28, color: Colors.white),
           ),
           const SizedBox(height: 6),
-          Text(
-            label,
-            style: const TextStyle(fontWeight: FontWeight.bold),
-          ),
+          Text(label,
+              style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.black87)),
         ],
       ),
     );
   }
 
-  // Gradient Button for actions
+  // ------------------------
+  // Gradient Button Widget
+  // ------------------------
   Widget _gradientButton(
       String text, VoidCallback onTap, Color startColor, Color endColor) {
     return InkWell(
       onTap: onTap,
-      borderRadius: BorderRadius.circular(8),
+      borderRadius: BorderRadius.circular(12),
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
         decoration: BoxDecoration(
           gradient: LinearGradient(colors: [startColor, endColor]),
-          borderRadius: BorderRadius.circular(8),
+          borderRadius: BorderRadius.circular(12),
           boxShadow: const [
             BoxShadow(color: Colors.black26, blurRadius: 4, offset: Offset(2, 2))
           ],
@@ -293,6 +315,43 @@ class _HomePagesState extends State<HomePages> {
         child: Text(
           text,
           style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+      ),
+    );
+  }
+
+  // ------------------------
+  // Category Quiz Box Widget
+  // ------------------------
+  Widget _categoryQuizBox(String title, VoidCallback onTap) {
+    return InkWell(
+      onTap: onTap,
+      child: Card(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        elevation: 4,
+        margin: const EdgeInsets.symmetric(vertical: 8),
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(16),
+            gradient: LinearGradient(
+              colors: [Colors.lightBlue.shade300, Colors.lightBlue.shade100],
+            ),
+          ),
+          child: Row(
+            children: [
+              const Icon(Icons.quiz, color: Colors.white, size: 28),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Text(
+                  title,
+                  style: const TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+                ),
+              ),
+              const Icon(Icons.arrow_forward_ios, color: Colors.white, size: 16),
+            ],
+          ),
         ),
       ),
     );

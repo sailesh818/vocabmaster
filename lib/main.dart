@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-//import 'package:vocab_master/home/pages/home_pages.dart';
 import 'package:vocab_master/navigation_bar/pages/navigationbar.dart';
-//import 'package:vocab_master/home/pages/test_json_page.dart';
 import 'package:vocab_master/providers/words_provider.dart';
 
 void main() {
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (_) => WordsProvider()..loadWords(), // Load JSON on start
+          create: (_) => WordsProvider()..loadWords(),
         ),
       ],
       child: MaterialApp(
