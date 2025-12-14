@@ -68,5 +68,75 @@
     "example": "Japanese culture emphasizes respect and harmony.",
     "synonyms": ["civilization", "way of life"],
     "antonyms": []
+  },
+  {
+    "word": "Adventure",
+    "meaning": "An exciting or unusual experience",
+    "example": "They went on an adventure through the Amazon rainforest.",
+    "synonyms": ["exploration", "quest"],
+    "antonyms": []
+  },
+  {
+    "word": "Monument",
+    "meaning": "A structure erected to commemorate a person or event",
+    "example": "The Lincoln Memorial is a famous monument in the USA.",
+    "synonyms": ["memorial", "landmark"],
+    "antonyms": []
+  },
+  {
+    "word": "Voyage",
+    "meaning": "A long journey involving travel by sea or in space",
+    "example": "The voyage across the Atlantic lasted two weeks.",
+    "synonyms": ["expedition", "journey"],
+    "antonyms": []
+  },
+  {
+    "word": "Pilgrimage",
+    "meaning": "A journey to a sacred place for religious reasons",
+    "example": "They made a pilgrimage to Mecca.",
+    "synonyms": ["spiritual journey", "religious trip"],
+    "antonyms": []
+  },
+  {
+    "word": "Landscape",
+    "meaning": "All the visible features of an area of land",
+    "example": "The mountain landscape was breathtaking.",
+    "synonyms": ["scenery", "terrain"],
+    "antonyms": []
+  },
+  {
+    "word": "Festival",
+    "meaning": "A period of celebration or cultural event",
+    "example": "The city hosts an annual music festival.",
+    "synonyms": ["celebration", "carnival"],
+    "antonyms": []
+  },
+  {
+    "word": "Tradition",
+    "meaning": "A long-established custom or belief",
+    "example": "It is a tradition to light candles during the festival.",
+    "synonyms": ["custom", "heritage"],
+    "antonyms": []
+  },
+  {
+    "word": "Journey",
+    "meaning": "The act of traveling from one place to another",
+    "example": "The journey through the desert was challenging.",
+    "synonyms": ["trip", "voyage"],
+    "antonyms": []
+  },
+  {
+    "word": "Excursionist",
+    "meaning": "A person who goes on a short trip or outing",
+    "example": "The excursionists enjoyed a day at the beach.",
+    "synonyms": ["traveler", "tourist"],
+    "antonyms": []
+  },
+  {
+    "word": "Backpacker",
+    "meaning": "A traveler who carries belongings in a backpack",
+    "example": "The backpacker visited multiple countries on a budget.",
+    "synonyms": ["traveler", "hiker"],
+    "antonyms": []
   }
 ]

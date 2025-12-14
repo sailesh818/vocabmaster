@@ -25,7 +25,6 @@ class _HomePagesState extends State<HomePages> {
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       await wordsProvider.loadAllWords();
-
       if (wordsProvider.words.isNotEmpty) {
         setState(() {
           dailyWordIndex = Random().nextInt(wordsProvider.words.length);
@@ -38,7 +37,6 @@ class _HomePagesState extends State<HomePages> {
   void showNextWord() {
     final wordsProvider = Provider.of<WordsProvider>(context, listen: false);
     if (wordsProvider.words.isEmpty) return;
-
     setState(() {
       dailyWordIndex = (dailyWordIndex + 1) % wordsProvider.words.length;
     });
@@ -58,7 +56,9 @@ class _HomePagesState extends State<HomePages> {
 
     if (isLoading) {
       return const Scaffold(
-        body: Center(child: CircularProgressIndicator(color: Colors.lightBlue)),
+        body: Center(
+          child: CircularProgressIndicator(color: Colors.lightBlue),
+        ),
       );
     }
 
@@ -68,8 +68,11 @@ class _HomePagesState extends State<HomePages> {
     return Scaffold(
       backgroundColor: Colors.grey.shade100,
       appBar: AppBar(
-        title: const Text("Vocab Master"),
-        backgroundColor: Colors.lightBlue,
+        title: const Text(
+          "Vocab Master",
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+        ),
+        backgroundColor: Colors.lightBlueAccent,
         elevation: 4,
         actions: [
           IconButton(
@@ -100,14 +103,16 @@ class _HomePagesState extends State<HomePages> {
             // Daily Word Card
             // ------------------------
             Card(
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              elevation: 6,
-              shadowColor: Colors.blue.shade100,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 8,
+              shadowColor: Colors.blue.shade200,
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   gradient: LinearGradient(
-                    colors: [Colors.lightBlue.shade200, Colors.lightBlue.shade50],
+                    colors: [Colors.lightBlue.shade300, Colors.lightBlue.shade100],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
@@ -119,24 +124,30 @@ class _HomePagesState extends State<HomePages> {
                     const Text(
                       "Word of the Day",
                       style: TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black87),
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white70),
                     ),
                     const SizedBox(height: 12),
                     Text(
                       word["word"],
                       style: const TextStyle(
-                          fontSize: 36, fontWeight: FontWeight.bold, color: Colors.black87),
+                          fontSize: 36,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
                     ),
                     const SizedBox(height: 10),
                     Text(
                       word["meaning"],
-                      style: const TextStyle(fontSize: 18, color: Colors.black87),
+                      style: const TextStyle(fontSize: 18, color: Colors.white70),
                     ),
                     const SizedBox(height: 10),
                     Text(
                       "Example: ${word["example"]}",
                       style: const TextStyle(
-                          fontSize: 16, fontStyle: FontStyle.italic, color: Colors.black87),
+                          fontSize: 16,
+                          fontStyle: FontStyle.italic,
+                          color: Colors.white70),
                     ),
                     const SizedBox(height: 16),
                     SingleChildScrollView(
@@ -144,13 +155,16 @@ class _HomePagesState extends State<HomePages> {
                       child: Row(
                         children: [
                           _gradientButton(
-                              "Next Word", showNextWord, Colors.blueAccent, Colors.lightBlueAccent),
+                              "Next Word",
+                              showNextWord,
+                              Colors.blueAccent.shade400,
+                              Colors.lightBlueAccent.shade100),
                           const SizedBox(width: 12),
                           _gradientButton(
                               "Add to Favorites",
                               () => addToFavorites(word),
-                              Colors.pink,
-                              Colors.redAccent),
+                              Colors.pinkAccent.shade400,
+                              Colors.redAccent.shade200),
                           const SizedBox(width: 12),
                           _gradientButton(
                               "View Details",
@@ -158,8 +172,8 @@ class _HomePagesState extends State<HomePages> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (_) => WordDetailPage(word: word))),
-                              Colors.green,
-                              Colors.lightGreenAccent),
+                              Colors.green.shade400,
+                              Colors.lightGreenAccent.shade100),
                         ],
                       ),
                     ),
@@ -167,7 +181,6 @@ class _HomePagesState extends State<HomePages> {
                 ),
               ),
             ),
-
             const SizedBox(height: 30),
 
             // ------------------------
@@ -179,6 +192,7 @@ class _HomePagesState extends State<HomePages> {
                 _quickAction(
                   icon: Icons.list_alt,
                   label: "All Words",
+                  color: Colors.blueAccent.shade400,
                   onTap: () {
                     Navigator.push(
                       context,
@@ -189,6 +203,7 @@ class _HomePagesState extends State<HomePages> {
                 _quickAction(
                   icon: Icons.favorite,
                   label: "Favorites",
+                  color: Colors.pinkAccent.shade400,
                   onTap: () {
                     Navigator.push(
                       context,
@@ -199,6 +214,7 @@ class _HomePagesState extends State<HomePages> {
                 _quickAction(
                   icon: Icons.quiz,
                   label: "Mini Quiz",
+                  color: Colors.greenAccent.shade400,
                   onTap: () {
                     Navigator.push(
                       context,
@@ -208,7 +224,6 @@ class _HomePagesState extends State<HomePages> {
                 ),
               ],
             ),
-
             const SizedBox(height: 30),
 
             // ------------------------
@@ -229,15 +244,16 @@ class _HomePagesState extends State<HomePages> {
                 });
               }).toList(),
             ),
-
             const SizedBox(height: 30),
 
             // ------------------------
             // Streak / Progress Card
             // ------------------------
             Card(
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-              elevation: 4,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 6,
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
@@ -250,14 +266,18 @@ class _HomePagesState extends State<HomePages> {
                   children: const [
                     Column(
                       children: [
-                        Text("Streak", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                        Text("Streak",
+                            style: TextStyle(
+                                fontSize: 16, fontWeight: FontWeight.bold)),
                         SizedBox(height: 6),
                         Text("3 days", style: TextStyle(fontSize: 16)),
                       ],
                     ),
                     Column(
                       children: [
-                        Text("Points", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                        Text("Points",
+                            style: TextStyle(
+                                fontSize: 16, fontWeight: FontWeight.bold)),
                         SizedBox(height: 6),
                         Text("50", style: TextStyle(fontSize: 16)),
                       ],
@@ -276,7 +296,10 @@ class _HomePagesState extends State<HomePages> {
   // Quick Action Widget
   // ------------------------
   Widget _quickAction(
-      {required IconData icon, required String label, required VoidCallback onTap}) {
+      {required IconData icon,
+      required String label,
+      required VoidCallback onTap,
+      required Color color}) {
     return InkWell(
       onTap: onTap,
       borderRadius: BorderRadius.circular(12),
@@ -284,12 +307,13 @@ class _HomePagesState extends State<HomePages> {
         children: [
           CircleAvatar(
             radius: 30,
-            backgroundColor: Colors.lightBlue.shade400,
+            backgroundColor: color,
             child: Icon(icon, size: 28, color: Colors.white),
           ),
           const SizedBox(height: 6),
           Text(label,
-              style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.black87)),
+              style: const TextStyle(
+                  fontWeight: FontWeight.bold, color: Colors.black87)),
         ],
       ),
     );
@@ -314,7 +338,8 @@ class _HomePagesState extends State<HomePages> {
         ),
         child: Text(
           text,
-          style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          style: const TextStyle(
+              color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14),
         ),
       ),
     );
@@ -328,14 +353,14 @@ class _HomePagesState extends State<HomePages> {
       onTap: onTap,
       child: Card(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        elevation: 4,
+        elevation: 6,
         margin: const EdgeInsets.symmetric(vertical: 8),
         child: Container(
           padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
             gradient: LinearGradient(
-              colors: [Colors.lightBlue.shade300, Colors.lightBlue.shade100],
+              colors: [Colors.lightBlue.shade400, Colors.lightBlue.shade200],
             ),
           ),
           child: Row(
@@ -346,7 +371,9 @@ class _HomePagesState extends State<HomePages> {
                 child: Text(
                   title,
                   style: const TextStyle(
-                      color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16),
                 ),
               ),
               const Icon(Icons.arrow_forward_ios, color: Colors.white, size: 16),
