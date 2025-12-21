@@ -244,48 +244,48 @@ class _HomePagesState extends State<HomePages> {
                 });
               }).toList(),
             ),
-            const SizedBox(height: 30),
+            //const SizedBox(height: 30),
 
             // ------------------------
             // Streak / Progress Card
             // ------------------------
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20),
-              ),
-              elevation: 6,
-              child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  gradient: LinearGradient(
-                      colors: [Colors.lightBlue.shade100, Colors.lightBlue.shade50]),
-                ),
-                padding: const EdgeInsets.all(20),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: const [
-                    Column(
-                      children: [
-                        Text("Streak",
-                            style: TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold)),
-                        SizedBox(height: 6),
-                        Text("3 days", style: TextStyle(fontSize: 16)),
-                      ],
-                    ),
-                    Column(
-                      children: [
-                        Text("Points",
-                            style: TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold)),
-                        SizedBox(height: 6),
-                        Text("50", style: TextStyle(fontSize: 16)),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ),
+            // Card(
+            //   shape: RoundedRectangleBorder(
+            //     borderRadius: BorderRadius.circular(20),
+            //   ),
+            //   elevation: 6,
+            //   child: Container(
+            //     decoration: BoxDecoration(
+            //       borderRadius: BorderRadius.circular(20),
+            //       gradient: LinearGradient(
+            //           colors: [Colors.lightBlue.shade100, Colors.lightBlue.shade50]),
+            //     ),
+            //     padding: const EdgeInsets.all(20),
+            //     // child: Row(
+            //     //   mainAxisAlignment: MainAxisAlignment.spaceAround,
+            //     //   children: const [
+            //     //     // Column(
+            //     //     //   children: [
+            //     //     //     Text("Streak",
+            //     //     //         style: TextStyle(
+            //     //     //             fontSize: 16, fontWeight: FontWeight.bold)),
+            //     //     //     SizedBox(height: 6),
+            //     //     //     Text("3 days", style: TextStyle(fontSize: 16)),
+            //     //     //   ],
+            //     //     // ),
+            //     //     // Column(
+            //     //     //   children: [
+            //     //     //     Text("Points",
+            //     //     //         style: TextStyle(
+            //     //     //             fontSize: 16, fontWeight: FontWeight.bold)),
+            //     //     //     SizedBox(height: 6),
+            //     //     //     Text("50", style: TextStyle(fontSize: 16)),
+            //     //     //   ],
+            //     //     // ),
+            //     //   ],
+            //     // ),
+            //   ),
+            // ),
           ],
         ),
       ),
